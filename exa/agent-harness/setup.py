@@ -36,7 +36,7 @@ setup(
     install_requires=[
         "click>=8.0.0",
         "prompt-toolkit>=3.0.0",
-        "exa-py>=1.0.0",
+        "exa-py>=2.0.0",
     ],
     extras_require={
         "dev": [

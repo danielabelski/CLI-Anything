@@ -32,7 +32,7 @@ def get_client() -> Exa:
         )
     return Exa(
         api_key=api_key,
-        additional_headers={"x-exa-integration": "cli-anything"},
+        user_agent="cli-anything",
     )
 
 

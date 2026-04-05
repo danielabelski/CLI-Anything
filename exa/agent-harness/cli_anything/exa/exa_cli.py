@@ -258,6 +258,8 @@ def server_status() -> None:
     """Check that the Exa API is reachable with your API key."""
     result = check_connectivity()
     _out(result)
+    if not result.get("ok"):
+        sys.exit(1)
 
 
 # ---------------------------------------------------------------------------
