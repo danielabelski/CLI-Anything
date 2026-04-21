@@ -98,6 +98,7 @@
 !/QGIS/
 !/n8n/
 !/obsidian/
+!/unrealinsights/
 !/lldb/
 
 # Step 5: Inside each software dir, ignore everything (including dotfiles)
@@ -181,6 +182,8 @@
 /n8n/.*
 /obsidian/*
 /obsidian/.*
+/unrealinsights/*
+/unrealinsights/.*
 /lldb/*
 /lldb/.*
 
@@ -231,6 +234,7 @@
 !/obsidian/agent-harness/
 !/safari/
 !/safari/agent-harness/
+!/unrealinsights/agent-harness/
 !/lldb/agent-harness/
 
 # Step 7: Ignore build artifacts within allowed dirs
